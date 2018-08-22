@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
 
-  name_hash.each do |name, value|
+  name_hash.collec do |name, value|
       max_value = value
       key_name = name
     if value >= max_value

@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   max_value = 1000
       key_name = ""
       if name_hash == nil
-        return nil
+        key_name= nil
       else
 
   name_hash.each do |name, value|

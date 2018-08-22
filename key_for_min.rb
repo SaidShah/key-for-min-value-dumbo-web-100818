@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   max_value = 1000
       key_name = ""
-      if name_hash == nil
+      if name_hash == {}
         key_name= nil
       else
 
